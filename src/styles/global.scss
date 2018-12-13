@@ -1,6 +1,28 @@
 @import "colors";
+@import "general";
+
+html,
+body {
+  height: 100vh;
+}
 
 body {
-  font-family: $font-montserrat;
+  overflow: hidden;
   color: $color-grey-6;
+  font-family: $font-montserrat;
+}
+
+a {
+  text-decoration: none;
+
+  &:visited,
+  &:link {
+    color: $color-grey-5;
+  }
+}
+
+.component-wrapper {
+  position: relative;
+  z-index: -1;
+  height: calc(100% - #{$navbar-height});
 }
