@@ -9,6 +9,10 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeEstimateComponent } from './home-estimate/home-estimate.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
+import { ListingCardComponent } from './listing-card/listing-card.component';
+import { SearchFilterComponent } from './search-filter/search-filter.component';
+import { MapPinsComponent } from './map-pins/map-pins.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { HomeEstimateComponent } from './home-estimate/home-estimate.component';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    HomeEstimateComponent
+    HomeEstimateComponent,
+    SearchBarComponent,
+    ListingCardComponent,
+    SearchFilterComponent,
+    MapPinsComponent
   ],
   imports: [
     BrowserModule,
