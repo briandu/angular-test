@@ -21,8 +21,25 @@ a {
   }
 }
 
+h1 {
+  font-size: 32px;
+  font-weight: $font-weight-bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: $font-weight-bold;
+}
+
+textarea,
+select,
+input,
+button {
+  outline: none;
+}
+
 .component-wrapper {
   position: relative;
-  z-index: -1;
+  overflow: hidden;
   height: calc(100% - #{$navbar-height});
 }
