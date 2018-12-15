@@ -1,0 +1,16 @@
+@import "../../styles";
+
+div {
+  display: flex;
+  align-items: center;
+
+  input {
+    font-size: 1em;
+    font-weight: $font-weight-bold;
+    width: 90%;
+    padding: .75em 0;
+    border: 0;
+    border-bottom: 1px solid $color-grey-4;
+    margin-left: 1em;
+  }
+}
